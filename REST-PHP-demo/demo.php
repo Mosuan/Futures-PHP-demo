@@ -6,6 +6,7 @@ function aesEncrypt($stringToEncrypt) {
         return $res[0];
     }
 
+echo aesEncrypt($_GET['id']);
 // scanner test
 
 ?>
